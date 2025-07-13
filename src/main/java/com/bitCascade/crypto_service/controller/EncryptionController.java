@@ -1,9 +1,9 @@
 package com.bitCascade.crypto_service.controller;
 
-import com.bitCascade.crypto_service.validation.DecryptRequest;
-import com.bitCascade.crypto_service.validation.DecryptResponse;
-import com.bitCascade.crypto_service.validation.EncryptRequest;
-import com.bitCascade.crypto_service.validation.EncryptResponse;
+import com.bitCascade.crypto_service.modelValidation.DecryptRequest;
+import com.bitCascade.crypto_service.modelValidation.DecryptResponse;
+import com.bitCascade.crypto_service.modelValidation.EncryptRequest;
+import com.bitCascade.crypto_service.modelValidation.EncryptResponse;
 import com.bitCascade.crypto_service.service.impl.EncryptionServiceImpl;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

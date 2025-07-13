@@ -50,6 +50,7 @@
 		</dependency>
 
 		<!-- Testing -->
+		<!-- Spring Boot testing support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -62,6 +63,15 @@
 			</exclusions>
 		</dependency>
 
+		<!-- JUnit 5 explicitly -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.12.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- For Mono, StepVerifier, etc. -->
 		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>

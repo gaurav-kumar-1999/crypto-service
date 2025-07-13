@@ -1,8 +1,7 @@
 package com.bitCascade.crypto_service.service;
 
-import com.bitCascade.crypto_service.utils.AESGCMUtil;
-import com.bitCascade.crypto_service.validation.DecryptResponse;
-import com.bitCascade.crypto_service.validation.EncryptResponse;
+import com.bitCascade.crypto_service.modelValidation.DecryptResponse;
+import com.bitCascade.crypto_service.modelValidation.EncryptResponse;
 import reactor.core.publisher.Mono;
 
 public interface EncryptionService {
