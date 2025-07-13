@@ -33,17 +33,19 @@ This microservice provides AES-256-GCM based encryption and decryption for URLs.
 
 
 - **POST**`/api/decrypt`
-- **Request Body:**
+-  **Response Body:**
   ```json
-{
-  "data": "B7vfjIeEyY0cPv65qdNNT47Mx3R1msCslbh1KzrbSWAf0w"
+  {
+    "data": "B7vfjIeEyY0cPv65qdNNT47Mx3R1msCslbh1KzrbSWAf0w"
 }
+  }
 
 - **Response Body:**
   ```json
-{
-  "decrypted": "https://example.com/secure-link"
-}
+  {
+     "decrypted": "https://example.com/secure-link"
+  }
+
 
 
 ⚙️ Configuration
