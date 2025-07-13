@@ -1,10 +1,10 @@
-package com.bitCascade.crypto_service.validation;
+package com.bitCascade.crypto_service.modelValidation;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-public class EncryptRequest {
+public class DecryptRequest {
     @NotBlank
     private String data;
 }
