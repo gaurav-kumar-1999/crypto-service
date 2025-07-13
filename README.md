@@ -33,13 +33,12 @@ This microservice provides AES-256-GCM based encryption and decryption for URLs.
 
 
 - **POST**`/api/decrypt`
--  **Response Body:**
+- **Response Body:**
   ```json
   {
     "data": "B7vfjIeEyY0cPv65qdNNT47Mx3R1msCslbh1KzrbSWAf0w"
-}
   }
-
+  
 - **Response Body:**
   ```json
   {
